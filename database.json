@@ -1,0 +1,19 @@
+{
+    "dev" : {
+        "driver" : "pg",
+        "user" : "Lapi",
+        "password" : "#03Malapile#03",
+        "host" : "127.0.0.1",
+        "database" : "storefront_app_db",
+        "multipleStatements" : true
+    },"sql-file" : true,
+    
+    "test" : {
+        "driver" : "pg",
+        "user" : "Lapi",
+        "password" : "#03Malapile#03",
+        "host" : "127.0.0.1",
+        "database" : "storefront_app_test_db",
+        "multipleStatements" : true
+    }
+}
